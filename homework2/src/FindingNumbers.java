@@ -1,5 +1,3 @@
-package homework2;
-
 public class FindingNumbers {
 
 	public static void main(String[] args) {

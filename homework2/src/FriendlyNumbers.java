@@ -1,5 +1,3 @@
-package homework2;
-
 public class FriendlyNumbers {
 
 	public static void main(String[] args) {

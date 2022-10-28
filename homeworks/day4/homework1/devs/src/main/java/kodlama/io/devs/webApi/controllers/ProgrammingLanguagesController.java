@@ -2,6 +2,7 @@ package kodlama.io.devs.webApi.controllers;
 
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -20,6 +21,7 @@ import kodlama.io.devs.exceptions.NameRepeatException;
 public class ProgrammingLanguagesController {
     private ProgrammingLanguageService programmingLanguageService;
 
+    @Autowired
     public ProgrammingLanguagesController(ProgrammingLanguageService programmingLanguageService) {
         this.programmingLanguageService = programmingLanguageService;
     }
